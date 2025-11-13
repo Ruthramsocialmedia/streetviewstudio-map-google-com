@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title></title>
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
 
-  <!-- Google Analytics (optional, still tracks before redirect) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-XXXXXXX');
-  </script>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-123TS0BVM9"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  <script>
-    // Instant redirect (0 milliseconds)
-    window.location.replace("https://streetviewstudio.maps.google.com/?id=NjBjNWIzODAtYmU2OC00OWY0LWE5OTItM2I5OTgxZTdkZjc5");
-  </script>
+      gtag("config", "G-123TS0BVM9");
+    </script>
 
-</head>
-<body style="margin:0; padding:0; background:#ffffff;">
-</body>
+    <script>
+      // Instant redirect (0 milliseconds)
+      window.location.replace(
+        "https://streetviewstudio.maps.google.com/?id=NjBjNWIzODAtYmU2OC00OWY0LWE5OTItM2I5OTgxZTdkZjc5"
+      );
+    </script>
+  </head>
+  <body style="margin: 0; padding: 0; background: #ffffff"></body>
 </html>
